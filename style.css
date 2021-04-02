@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2013/07/12/18/17/equalizer-153212_960_720.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #ff00ff;
+    font-family: 'Train One', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#b1 {
+    background-color: cyan;
+    transition: background-color 1s;
+}
+
+#b1:hover {
+    background-color: green;
+}
+
+#b2 {
+    background-color: blueviolet;
+    transition: background-color 1s;
+}
+
+#b2:hover {
+    background-color: orangered;
+}
+
+#b3 {
+    background-color: greenyellow;
+    transition: background-color 1s;
+}
+
+#b3:hover {
+    background-color: violet;
+}
+
+footer {
+    text-align: center;
+    margin-top: 300px;
+    /* Si div monte_le_son
+    margin-top: -100px;*/
+}
+
+.global_liste {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    width: 300px;
+    height: auto;
+}
+
+.liste {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.liste p {
+    color: black;
+}
+
+h2 {
+    color: #ff00ff;
+}
+
+.valider {
+    background-color: greenyellow;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.genres {
+    display: flex;
+    flex-direction: column;
+}
+
+.liste_genres p{
+    display: inline;
+}
+
+p {
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.retour {
+    background-color: mediumspringgreen;
+}
+
+.accueil {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/*.monte_le_son {
+    overflow: hidden;                  
+}
+
+.monte_le_son > :first-child {
+    display: inline-block;                                
+    padding-left: 100%;                   
+    white-space: nowrap;                  
+    animation: defilement-son 10s infinite linear;
+  }
+
+  @keyframes defilement-son {
+    0% {
+      transform: translate3d(0,0,0);      
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  
+    }
+  }*/
+

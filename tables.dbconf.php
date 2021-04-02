@@ -2,8 +2,8 @@
 
   const DB_HOST    = "localhost";
   const DB_NAME    = "id15189366_cameron";
-  const DB_LOGIN   = "id15189366_delphine";
-  const DB_PASS    = "p5kdHdm1)7n%\1X/";
+  const DB_LOGIN   = "login";
+  const DB_PASS    = "mdp";
 
   const DB_DRIVER  = "mysql";
   const DB_CHARSET = "utf8mb4";
